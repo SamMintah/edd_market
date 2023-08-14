@@ -1,0 +1,19 @@
+# Ignore build artifacts and dependencies
+node_modules/
+build/
+dist/
+
+# Ignore IDE and editor files
+.vscode/
+.idea/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore logs
+*.log
+
+# Ignore configuration files with sensitive data
+.env
+config.js
